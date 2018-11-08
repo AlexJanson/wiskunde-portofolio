@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="hamburger-menu" id="menu-button">
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-content" id="hamburger-content">
+            <ol>
+                <li>
+                    <p onclick='changeIframe("../html/my_point")'>My Point</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/connect_the_dots")'>Connect the Dots</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/pos_vel_acc")'>Position Velocity Accelaration</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/bounce")'>Bouncing Balls</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/bounce2")'>Bouncing Balls 2</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/draggable_point")'>Draggable Point</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/07line")'>Linear Function</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/08intersectigLines")'>Intersecting Lines</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/09perpendicularLine")'>Perpendicular Line</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/10median")'>Median</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/11Ortho")'>Ortho</p>
+                </li>
+                <li>
+                    <p onclick='changeIframe("../html/12rondjemidden")'>Perpendicular Bisector and Circumcenter</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+    
+    <iframe id="iframe" src="" height="1000" width="1000" frameborder="0"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
